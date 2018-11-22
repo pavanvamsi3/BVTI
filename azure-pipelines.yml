@@ -17,4 +17,5 @@ steps:
   inputs:
     githubEndpoint: 'github akbarmdmd'
     repositoryName: 'akbarmdmd/BVTI'
-    tag: 'v1.0.6'
+    tagSelection: 'auto'
+    tag: 'v1.0.10'
