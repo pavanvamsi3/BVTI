@@ -16,5 +16,5 @@ steps:
   displayName: 'Create GitHub Release'
   inputs:
     githubEndpoint: 'github akbarmdmd'
-
-    repositoryName: akbarmdmd/BVTI
+    repositoryName: 'akbarmdmd/BVTI'
+    tag: 'v1.0.6'
