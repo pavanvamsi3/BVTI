@@ -11,11 +11,3 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
-steps:
-- task: GithubRelease@10
-  displayName: 'Create GitHub Release'
-  inputs:
-    githubEndpoint: 'github akbarmdmd'
-    repositoryName: 'akbarmdmd/BVTI'
-    tagSelection: 'auto'
-    tag: 'v1.0.10'
