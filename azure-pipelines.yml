@@ -11,3 +11,9 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
+steps:
+- task: GithubRelease@0
+  inputs: 
+    githubConnection: 'GitHub connection 1'
+    repositoryName: pavanvamsi3/BVTI
+
